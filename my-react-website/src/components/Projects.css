@@ -1,0 +1,53 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.Title{
+    flex: 1;
+    color: white;
+    font-size: 50px;
+}
+.AI-inventory{
+    flex: 1;
+    color: white;
+    font-size: 25px;
+
+}
+
+/* Slideshow.css */
+.slideshow-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 500px; /* Set the width of the container as per your requirement */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .slideshow-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .AI-Projectdescription{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    color: darkgrey;
+    max-width: 750px;
+    text-align: center;
+    font-size: 20px;
+  }
