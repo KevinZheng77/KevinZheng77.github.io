@@ -13,7 +13,7 @@ nav {
     background: none;
     border: none;
     color: #FFFFFF; /* White text color for the button */
-    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     font-size: large;
   }
@@ -24,8 +24,16 @@ nav {
     margin-left: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: large;
+    font-weight: bold;
   }
   
   .nav-right a:first-child {
     margin-left: 0; /* Remove margin for the first link to avoid space on the left */
   }
+
+  /* Additional styles for social media icons */
+.nav-right img {
+  width: 24px; /* Adjust the icon size as needed */
+  height: 24px;
+  margin-left: 10px; /* Add spacing between the icons */
+}

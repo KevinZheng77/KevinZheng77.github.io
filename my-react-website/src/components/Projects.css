@@ -10,12 +10,14 @@
     flex: 1;
     color: white;
     font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 110px;
 }
 .AI-inventory{
     flex: 1;
     color: white;
     font-size: 25px;
-
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /* Slideshow.css */
@@ -37,10 +39,14 @@
     top: 50%;
     right: 10px;
     transform: translateY(-50%);
-    color: #fff;
+    color:black;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    background: transparent;
+  }
+  .next-btn:hover{
+    color: darkgrey;
   }
 
   .AI-Projectdescription{
@@ -50,4 +56,82 @@
     max-width: 750px;
     text-align: center;
     font-size: 20px;
+  }
+
+  .Fitness-App{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  .fitness-slideshow-container{
+    position: relative;
+    overflow: hidden;
+    max-width: 600px; /* Set the width of the container as per your requirement */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .fitness-slideshow-container img {
+    width: 80%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    padding-left: 40px;
+  }
+
+  .next-fitnessbtn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent; /* Remove the box background */
+    transition: background-color 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  /* Add styles for the button when hovering */
+  .next-fitnessbtn:hover {
+    color:darkgrey;
+  }
+
+  .Virus-website{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  .Virus-slideshow-container{
+    position: relative;
+    overflow: hidden;
+    max-width: 600px; /* Set the width of the container as per your requirement */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+
+  .Virus-slideshow-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    padding-left: 40px;
+  }
+
+  .next-Virusbtn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent; /* Remove the box background */
+    transition: background-color 0.3s ease-in-out; /* Add a transition effect */
+  }
+  
+  /* Add styles for the button when hovering */
+  .next-Virusbtn:hover {
+    color:darkgrey;
   }
