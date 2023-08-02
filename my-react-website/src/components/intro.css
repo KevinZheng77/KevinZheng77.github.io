@@ -1,38 +1,60 @@
 /* intro.css */
 #intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:black;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  flex-wrap: wrap; /* Allow the flex items to wrap onto multiple lines when the screen is smaller */
+}
+
+.Intro-text{
+  padding-top: 150px;
+  padding-left: 200px;
+  padding-right: 100px;
+}
+
+.Intro-title {
+  flex: 1;
+}
+
+.Intro-title h1 {
+  font-size: 55px;
+  margin: 0;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Intro-desc {
+  flex: 1;
+  padding: 0 20px;
+  color: darkgrey;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.Intro-desc p {
+  font-size: 20px;
+}
+
+.Profile-picture{
+  padding-top: 100px;
+  padding-right: 100px;
+}
+
+/* Media query for devices with max-width 768px (like tablets and mobile phones) */
+@media screen and (max-width: 768px) {
   .Intro-text{
-    padding-top: 150px;
-    padding-left: 200px;
-    padding-right: 100px;
+    padding: 50px 10px;
   }
-  .Intro-title {
-    flex: 1;
-  }
-  
+
   .Intro-title h1 {
-    font-size: 55px;
-    margin: 0;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
   }
-  
-  .Intro-desc {
-    flex: 1;
-    padding: 0 20px;
-    color: darkgrey;
-    font-family: 'Roboto Condensed', sans-serif;
-  }
-  
+
   .Intro-desc p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .Profile-picture{
-      padding-top: 100px;
-      padding-right: 100px;
+    padding: 50px 10px;
   }
+}
